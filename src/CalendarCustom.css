@@ -1,0 +1,21 @@
+.react-calendar {
+  width: 100%;
+  background: var(--card-bg);
+  color: var(--text-color);
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 14px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.react-calendar__tile--now {
+  background: #00b89433 !important;
+  border-radius: 8px;
+}
+
+.has-task {
+  background: var(--accent) !important;
+  color: white !important;
+  border-radius: 50%;
+}
